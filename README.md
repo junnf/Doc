@@ -8,4 +8,9 @@ Konsole:
 
 paper search:
 -----------------
-######  http://citeseer.ist.psu.edu/index<br />
+######  http://citeseer.ist.psu.edu/index
+
+latex:
+-----------------
+######  texmaker
+ 
