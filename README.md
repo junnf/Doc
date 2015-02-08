@@ -13,4 +13,8 @@ paper search:
 latex:
 -----------------
 ######  texmaker
- 
+
+JDK-opensuse
+-----------------
+######  doc
+######  https://zh.opensuse.org/SDB:%E5%AE%89%E8%A3%85Oracle_Java
