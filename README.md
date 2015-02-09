@@ -18,3 +18,8 @@ JDK-opensuse
 -----------------
 ######  doc
 ######  https://zh.opensuse.org/SDB:%E5%AE%89%E8%A3%85Oracle_Java
+
+Python-cookbook Translation
+-----------------
+######  href
+######  http://python3-cookbook.readthedocs.org/zh_CN/latest/
