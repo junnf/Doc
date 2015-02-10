@@ -1,4 +1,12 @@
 # Doc
+LINUX:
+========
+###### http://www.ibm.com/developerworks/cn/linux/index.html
+
+JDK-opensuse
+-----------------
+######  doc
+######  https://zh.opensuse.org/SDB:%E5%AE%89%E8%A3%85Oracle_Java
 
 Konsole:
 ------------------
@@ -6,6 +14,8 @@ Konsole:
 ######  https://userbase.kde.org/Konsole/zh-cn   
 ######  https://userbase.kde.org/Konsole#Keywords
 
+STUDY:
+==============
 paper search:
 -----------------
 ######  http://citeseer.ist.psu.edu/index
@@ -14,15 +24,14 @@ latex:
 -----------------
 ######  texmaker
 
-JDK-opensuse
------------------
-######  doc
-######  https://zh.opensuse.org/SDB:%E5%AE%89%E8%A3%85Oracle_Java
+XML
+=============
+######  http://www.ibm.com/developerworks/cn/xml/x-newxml/
+######  http://www.w3schools.com/xml/default.asp
 
 API
 ======
 ######  https://developer.github.com/v3/
-
 
 PYTHON
 ==================
