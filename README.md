@@ -45,3 +45,5 @@ Python-cookbook Translation
 ######  http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
 ###web-urllib:
 ######  https://docs.python.org/2/library/urllib2.html
+###itertools:
+######  http://www.cnblogs.com/cython/articles/2169009.html
