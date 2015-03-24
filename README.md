@@ -23,6 +23,8 @@ paper search:
 latex:
 -----------------
 ######  texmaker
+######  Latex-study
+######  http://zhangzimou-com.static.smartgslb.com/file/latex.pdf
 
 XML
 =============
