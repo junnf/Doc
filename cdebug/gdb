@@ -1,0 +1,9 @@
+start
+l --list
+s --step 单步执行
+n --next
+q --quit
+
+bt --backtrace 查看调用栈帧
+i --info          i locals 查看局部变量
+set var   修改变量的值 
