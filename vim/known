@@ -1,0 +1,12 @@
+.  repeat last operation
+>G tab all the line(below cursor)
+
+C == c$ 删除到结尾 剪贴
+s == cl 字符 剪贴
+S == ^c
+I == ^i
+A == $a
+o == A<CR>
+O == ko
+
+
