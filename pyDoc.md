@@ -48,3 +48,23 @@ fill(text, width=70, **kwargs) :该方法可以根据指定的长度，进行拆
 dedent()方法->文本进行不缩进显示，相应的indent()方法 -> 进行缩进显示
 
 
+#####装饰器
+    def log(text):
+    def decorator(func):
+        def wrapper(*args, **kw):
+            print '%s %s():' % (text, func.__name__)
+            return func(*args, **kw)
+        return wrapper
+    return decorator
+
+    
+######偏函数    
+    functools.partial就是帮助我们创建一个偏函数的，不需要我们自己定义int2()，可以直接使用下面的代码创建一个新的函数int2：
+
+    >>> import functools
+    >>> int2 = functools.partial(int, base=2)
+    >>> int2('1000000')
+    64
+    >>> int2('1010101')
+    85
+
