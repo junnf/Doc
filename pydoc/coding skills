@@ -1,0 +1,43 @@
+fast coding skills:
+
+使用计数器
+>>> from collections import Counter
+>>> c = Counter('hello world')
+>>> c
+Counter({'l': 3, 'o': 2, ' ': 1, 'e': 1, 'd': 1, 'h': 1, 'r': 1, 'w': 1})
+>>> c.most_common(2)
+[('l', 3), ('o', 2)]
+
+列表推导: 集合，字典，列表
+
+6.1. 1. 字典和集合推导式
+
+大多数Python开发者知道使用列表推导式。你不熟悉这一点？ 一个列表推导式是一个创造列表的简短方式:
+
+>>> some_list = [1, 2, 3, 4, 5]
+>>> another_list = [ x + 1 for x in some_list ]
+>>> another_list
+[2, 3, 4, 5, 6]
+
+从Python 3.1开始(也反向地移植到了Python 2.7),我们可以用同样的方式创建集合和字典:
+
+>>> # Set Comprehensions
+>>> some_list = [1, 2, 3, 4, 5, 2, 5, 1, 4, 8]
+>>> even_set = { x for x in some_list if x % 2 == 0 }
+>>> even_set
+set([8, 2, 4])
+
+>>> # Dict Comprehensions
+>>> d = { x: x % 2 == 0 for x in range(1, 11) }
+>>> d
+{1: False, 2: True, 3: False, 4: True, 5: False, 6: True, 7: False, 8: True, 9: False, 10: True}
+
+第一个例子中，我们用 some_list 建立了一个元素不重复的集合，但只有偶数。第二个字典的例子中展示了一个字典的创建，这个字典的键是1到10（包括10），值是布尔值，指明该键是不是一个偶数。
+
+另一个值得注意的地方是集合的文法，我们可以这么简单的创建一个集合:
+
+>>> my_set = {1, 2, 1, 2, 3, 4}
+>>> my_set
+set([1, 2, 3, 4])
+
+而没有使用到内建的 set 方法
