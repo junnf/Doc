@@ -1,0 +1,2 @@
+SELECT:
+    INNER JOIN
