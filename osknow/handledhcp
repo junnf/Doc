@@ -1,0 +1,2 @@
+处理更换不同无线网需要重新获得nameserver
+sudo /usr/sbin/dhcpcd wlp3s0
