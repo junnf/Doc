@@ -5,8 +5,22 @@ mysql [options]  dbname < backupfile.sql
 
 mysql [options] < backupfile.sql
 
-CREATE TABLE comment(textnum int not null,commentid SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-content VARCHAR(50) not null, pushtime timestamp, 
-######外键约束
-constraint fk_cm FOREIGN KEY (textnum) REFERENCES text (textnum));
+
+MyISAM Static
+    存取效率高
+MyISAM Dynamic
+    空间开销小
+InnoDB
+    支持事务
+    数据行级锁，非数据表级锁
+    MyISAM为数据表级锁
+    自动识别死锁
+    外键约束条件
+
+查看auto_increment 
+SELECT LAST_INSERT_ID();
+
+ALTER TABLE AA MODIFY COLUMN SS INT;
+CREATE UNIQUE INDEX A ON TABLENAME(COLUMN);
+
 
