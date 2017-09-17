@@ -14,13 +14,20 @@ Reading(finished)：
 《Linux CLI & Shell Scripting Bible》
 《普通心理学》
 《乌合之众》
+《希腊时代的悲剧哲学》
+《尼采传》
+《悉达多》
+《思想的力量》
+《鬼谷子》
+
+
 
 To Read(未完成)：
 
 《Concrete Mathematics》1,2,3章
 《UNP》未读完
 《心理学与生活》1/3
-《flask》1/4
+《flask doc》1/4
 《http权威指南》部分
 《精通css》
 《古典音乐一本通》部分
@@ -29,4 +36,5 @@ To Read(未完成)：
 《计算理论导引》 未开始
 《社会工程学》上、下册 未开始
 《机器学习》周志华
-<善恶的彼岸>
+《善恶的彼岸》
+ 
